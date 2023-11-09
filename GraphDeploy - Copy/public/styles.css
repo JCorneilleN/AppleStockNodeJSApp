@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+
+
+
+.container {
+    max-width: 100%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header img {
+    
+    max-width: 25%;
+   /* background-color: #000;*/
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+}
+.header p{
+    margin-right: 20px;
+}
+.header h5 {
+    font-size: 24px;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: left;
+    color: red;
+}
+/* ... Previous CSS ... */
+
+.key-stats, .about-apple {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 0;
+    margin-right: 50px auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.stats-grid, .info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.stats-grid div, .info-grid div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+}
+
+.stats-grid span, .info-grid span {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.apple-text h1 {
+    margin: 0;
+    font-size: 2em;
+    padding: 0;
+   
+}
+.apple-text p {
+    margin: 0;
+    color: gray;
+    font-size: 1em;
+    padding: 0;
+}
+
+.apple-logo {
+    max-width: 100px; /* Adjust as needed */
+    margin-right: 100px;
+}
+
+
+#plotly-graph {
+    width: 100%;
+    height: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+
+/* ... your existing styles ... */
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; /* space between icons */
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s;
+}
+
+.icon:hover {
+    transform: scale(1.1); /* slight zoom on hover */
+}
